@@ -85,7 +85,7 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
-
+.idea
 ### Eclipse template
 .metadata
 bin/
@@ -573,3 +573,5 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 
+/.idea
+/Algorithm.iml
