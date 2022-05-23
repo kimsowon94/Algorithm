@@ -1,6 +1,14 @@
 package LeetCode.Two_sum;
 
 public class Two_sum {
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{2, 7 , 11, 15};
+        int target = 9;
+
+        Two_sum twoSum = new Two_sum();
+        twoSum.twoSum(nums, target);
+    }
     public int[] twoSum(int[] nums, int target) {
 
          int index = nums.length;
@@ -15,6 +23,7 @@ public class Two_sum {
                      if (num + nums[j] == target) {
                          result[0] = i;
                          result[1] = j;
+                         break;
                      }
                  }
              }
