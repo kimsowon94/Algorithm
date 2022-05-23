@@ -1,4 +1,4 @@
-package LeetCode.Two_sum;
+package LeetCode.TwoSum;
 
 public class Two_sum {
 
