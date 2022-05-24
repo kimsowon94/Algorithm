@@ -8,17 +8,13 @@ public class NumberAdd {
     }
 
     public int solution(int[] numbers) {
-        int answer = 0;
-        // 1 ~ 9 더하기
-        for (int i = 1; i < 10; i++) {
-           answer = answer + i;
-        }
+        int answer = 45;
 
         for (int i = 0; i < numbers.length; i++) {
             answer = answer - numbers[i];
         }
 
         System.out.println(answer);
-       return answer;
+        return answer;
    }
 }
