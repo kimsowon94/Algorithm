@@ -9,6 +9,8 @@ public class Two_sum {
         Two_sum twoSum = new Two_sum();
         twoSum.twoSum(nums, target);
     }
+
+    // 반복문
     public int[] twoSum(int[] nums, int target) {
 
          int index = nums.length;
@@ -30,4 +32,7 @@ public class Two_sum {
          }
          return result;
      }
+
+     // 필터
+
 }
