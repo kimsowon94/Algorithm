@@ -8,7 +8,7 @@ public class StarTaking {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        
+
         StarTaking solution = new StarTaking();
         solution.starTakingSolution(a,b);
     }
