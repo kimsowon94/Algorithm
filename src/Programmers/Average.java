@@ -13,7 +13,7 @@ public class Average {
             answer += arr[i];
         }
         answer = answer / arr.length;
-        
+
         return answer;
     }
 
